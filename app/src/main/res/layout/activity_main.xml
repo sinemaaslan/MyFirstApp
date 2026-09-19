@@ -10,7 +10,7 @@
         android:id="@+id/myTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/merhaba_dunya"
+        android:text="@string/text"
         android:textSize="24sp"
         android:layout_marginBottom="20dp" />
 
@@ -18,6 +18,12 @@
         android:id="@+id/btnChangeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/yaziyi_degistir" />
+        android:text="@string/change_the_text" />
+
+    <Button
+        android:id="@+id/btnChangeColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_the_color" />
 
 </LinearLayout>

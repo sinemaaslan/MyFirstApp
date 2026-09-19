@@ -1,5 +1,6 @@
-package com.example.myfirstapplication; // Kendi paket adın kalacak
-
+package com.example.myfirstapplication;
+import android.annotation.SuppressLint;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     private TextView myTextView;
-    private Button btnChangeText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,13 +17,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         myTextView = findViewById(R.id.myTextView);
-        btnChangeText = findViewById(R.id.btnChangeText);
+        Button btnChangeText = findViewById(R.id.btnChangeText);
+        Button btnChangeColor = findViewById(R.id.btnChangeColor);
 
         btnChangeText.setOnClickListener(new View.OnClickListener() {
+
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
-                myTextView.setText("Butona Tıklandı!");
+                myTextView.setText("Hello World!");
             }
         });
+        btnChangeColor.setOnClickListener(v -> myTextView.setTextColor(Color.GREEN));
     }
+
 }

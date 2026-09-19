@@ -2,4 +2,9 @@
     <string name="app_name">MyFirstApplication</string>
     <string name="merhaba_dunya">Merhaba Dunya!</string>
     <string name="yaziyi_degistir">Yaziyi Degistir</string>
+    <string name="change_the_color">Change the color</string>
+    <string name="hello_word">Hello Word</string>
+    <string name="change_the_text">Change the Text</string>
+    <string name="hello_world">hello_world</string>
+    <string name="text">Text</string>
 </resources>
