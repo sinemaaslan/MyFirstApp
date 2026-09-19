@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyFirstApplication</string>
+    <string name="merhaba_dunya">Merhaba Dunya!</string>
+    <string name="yaziyi_degistir">Yaziyi Degistir</string>
 </resources>
